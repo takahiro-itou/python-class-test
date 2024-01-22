@@ -12,3 +12,4 @@ def instantiate(cls, val):
     return  cls(val)
 
 x1 = instantiate(HogeA, 1234)
+x1.print_value()
