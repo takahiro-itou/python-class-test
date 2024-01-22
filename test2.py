@@ -24,3 +24,8 @@ x1.print_value()
 
 x2 = instantiate(FugaB, 555)
 x2.print_value()
+
+
+print(globals())
+y = eval('HogeA')
+print(y)
